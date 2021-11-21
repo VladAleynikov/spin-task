@@ -1,0 +1,31 @@
+{
+  "name": "spin-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/gsap": "^1.20.0",
+    "@types/lodash": "^4.14.177",
+    "@types/pixi.js": "^4.8.3",
+    "@types/howler": "^2.2.4",
+    "copy-webpack-plugin": "^4.6.0",
+    "ts-loader": "^5.3.0",
+    "typescript": "^3.1.6",
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "gsap": "^2.0.2",
+    "howler": "^2.2.3",
+    "lodash": "^4.17.21",
+    "pixi.js": "^4.8.2"
+  }
+}
